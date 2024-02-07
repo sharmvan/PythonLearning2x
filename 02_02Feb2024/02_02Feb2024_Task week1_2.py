@@ -1,4 +1,4 @@
-n=int(input("Enter the number for the table for Which you want to print in the console: "))
+n=int(input("Enter the number for the table for Which you want to print in the console: ")git init)
 print(f"{n}*1={n}")
 print(f"{n}*2={n*2}")
 print(f"{n}*3={n*3}")
