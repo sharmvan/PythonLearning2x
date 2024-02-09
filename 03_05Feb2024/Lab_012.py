@@ -1,0 +1,20 @@
+# Take 2 numbers from the user and we want ot add them.
+# num1=input("Enter 1st no: ")
+# num2=input("Enter 2nd no: ")
+# print(num1)
+# print(num2)
+# print(type(num1))
+# print(type(num2))
+# sum=int(num1)+int(num2)
+# print(sum)
+# print(type(sum))
+
+num1=int(input("Enter 1st no: "))
+num2=int(input("Enter 2nd no: "))
+print(num1)
+print(num2)
+print(type(num1))
+print(type(num2))
+sum=num1+num2
+print(sum)
+print(type(sum))
