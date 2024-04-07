@@ -1,10 +1,10 @@
-# Automation Tester blueprint (py system)
+# Automation Tester blueprint with python system
 # Class - Student, Course, Payments- Razorpay, Stipe, Instamojo
 # Objects
 
-# For student class (A/B)-> vandana, pankaj, anmol (Every student belongs to a course also)
-# For course class (A/B)-> PyATB, MTB, ATBJ, APIAT
-# For payment class (A/B)-> Razorpay, Stipe, Instamojo
+# For student class (Attributes & Behaviours)-> vandana, pankaj, anmol (Every student belongs to a course also)
+# For course class (Attributes & Behaviours)-> PyATB, MTB, ATBJ, APIAT
+# For payment class (Attributes & Behaviours)-> Razorpay, Stipe, Instamojo
 
 # It means everything online, real world that we see, can be converted into Classes and Objects.
 # Every problem statement can be converted into classes and objects.
@@ -45,6 +45,9 @@ class student:
 
     def do_assignment(self):
         print("assignments")
+
+    def do_coding(self):
+        print("Recording")
 
 
 vandana = student()

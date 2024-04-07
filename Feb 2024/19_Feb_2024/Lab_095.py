@@ -25,7 +25,7 @@ class Person:
     # Behaviour is also called as "Methods" (not the functions) because functions are something which aren't used in
     # the classes. Whenever a function is used in the class, It's called as "Method".
 
-    # Self means that It's a own instance. Self will be the 1st argument of every method within the class.
+    # Self means that It's a own instance. Self will be the 1st argument/parameter of every method within the class.
     # Whenever we call any method with the instance variable, self will automatically have all their functions.
     # within the class "Self" will automatically call. Self basically means instance reference. It's not a keyword. It
     # refers to as instance of a class. Instance means creation of class.
