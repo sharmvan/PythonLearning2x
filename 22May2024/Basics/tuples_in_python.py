@@ -1,0 +1,28 @@
+# Tuples are indexed, allowed duplicate values and cannot be modified (immutable)
+tup_1 = (10, 20, 30, 40)
+tup_2 = ("Vandana", "Mohini", "Karishma", "Anisha", "Vandana")
+tup_3 = (10, "Vandana", True, 49.3, "200")
+print(tup_1)
+print(tup_2)
+print(tup_3)
+print(type(tup_1))
+print(type(tup_2))
+print(type(tup_3))
+print(len(tup_1))
+print(len(tup_2))
+print(len(tup_3))
+# print(tup_1.append(10))  # AttributeError: 'tuple' object has no attribute 'append'
+print(tup_2.count("Vandana"))
+print(tup_2.index("Vandana"))
+print(tup_2.index("Anisha"))
+print(tup_2[3])
+for i in tup_2:
+    print(i)
+joined_tuple = tup_1 + tup_2 + tup_3
+print(joined_tuple)
+
+print(type(joined_tuple))
+print(tup_2[0:3])
+print(tup_2[-1])
+print(tup_2[:])
+print(tup_2[::-1])
